@@ -19,6 +19,11 @@
         "name": "lixiang",
         "email": "2528308183@qq.com"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mirtok/vue-toastification-mini"
+    },
+    "homepage": "https://github.com/mirtok/vue-toastification-mini",
     "title": "vue-toastification-mini",
     "description": "Toast, Message,Notification",
     "license": "ISC",
