@@ -1,0 +1,50 @@
+{
+    "name": "vue-toastification-mini",
+    "version": "0.1.2",
+    "private": false,
+    "main": "dist/vue-toastification-mini.umd.min.js",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "lib": "vue-cli-service build --target lib packages/index.js"
+    },
+    "dependencies": {
+        "classnames": "^2.2.5",
+        "component-classes": "^1.2.6",
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11"
+    },
+    "author": {
+        "name": "lixiang",
+        "email": "2528308183@qq.com"
+    },
+    "title": "vue-toastification-mini",
+    "description": "Toast, Message,Notification",
+    "license": "ISC",
+    "keywords": [
+        "UI",
+        "Toast",
+        "toast",
+        "model",
+        "提示",
+        "轻提示",
+        "notification"
+    ],
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/eslint-config-standard": "^5.1.2",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "eslint-plugin-vue": "^6.2.2",
+        "less": "^3.0.4",
+        "less-loader": "^5.0.0",
+        "vue-template-compiler": "^2.6.11"
+    }
+}
